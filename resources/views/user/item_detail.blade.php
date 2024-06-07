@@ -24,7 +24,7 @@
                         <h4 class="card-title">Item Name : {{$item->item_name}}</h4>
                         <p class="card-text mt-3">Item Description : {{$item->description}}</p>
                         <!-- <p class="card-text">Price : ${{$item->price}}</p> -->
-                        <p class="card-text"><strong>Demo Url : {{$item->url}}</strong></p>
+                        <p class="card-text">Demo Url : <a href="{{$item->url}}" target="_blank">Video Link</a></p>
                         <p class="card-text">Added Date : {{$item->added_date}}</p>
                         <!-- <a href="{{route('stripe', $item)}}">
                                 <button type="button" class="btn btn-primary">Buy This Model</button>
